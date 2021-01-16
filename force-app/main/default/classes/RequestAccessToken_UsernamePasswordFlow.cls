@@ -7,7 +7,7 @@ public class RequestAccessToken_UsernamePasswordFlow {
         String clientSecret ='&client_secret=##############################################';
         String grantType ='?grant_type=password';
         String userName ='&username=mrabetmohamed22@playful-fox-nlrq10.com';
-        String password ='&password=passwordfollowedbyaccesstoken';
+        String password ='&password=passwordfollowedbysecuritytoken';
         
         String fullUrl = url+grantType+clientSecret+clientId+userName+password;
         
